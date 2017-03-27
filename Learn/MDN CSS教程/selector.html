@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		选择器练习
+	</title>
+	<style type="text/css">
+		#data-table-1 td:first-child{
+			color: red;
+			font-weight: bolder;
+		}
+		#data-table-1 td:first-child + td {
+			color: blue;
+			font-family: monospace;
+		}
+		/*#data-table-1 td:nth-child(2) {
+			color: blue;
+		}*/
+	</style>
+</head>
+<body>
+<table id = "data-table-1">
+	<tr>
+		<td>Prefix</td>
+		<td>0001</td>
+		<td>default</td>
+	</tr>
+	<tr>
+		<td>Prefix</td>
+		<td>0001</td>
+		<td>default</td>
+	</tr>
+	<tr>
+		<td>Prefix</td>
+		<td>0001</td>
+		<td>default</td>
+	</tr>
+</table>
+</body>
+</html>

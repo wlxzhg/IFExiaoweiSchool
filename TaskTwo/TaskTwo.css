@@ -1,0 +1,58 @@
+header {
+	background-color: rgb(85,85,85);
+	margin: 0px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	color: white;
+}
+header ul{
+	/*border: 1px solid #7c7;*/
+	/*margin: 0px;*/
+	display: inline;
+	float: right;
+	font-size: 1.2em;
+}
+header li {
+	display: inline;
+	
+	margin-right: 20px;
+	/*border: 1px solid #7c7;*/
+	padding: 5px;
+
+}
+
+header h1 {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	/*border: 1px solid #7c7;*/
+	
+}
+
+header a:link,header a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(190,190,190);
+}
+
+article {
+	background-color: white;
+	margin:0px;
+}
+
+article p {
+	text-indent: 2em;
+}
+
+article h2 {
+	padding-top: 1em;
+	
+	margin: 0px;
+}
+
+aside {
+	background-color: white;
+}
